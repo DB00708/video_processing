@@ -23,4 +23,3 @@ def unzip_dataset(zip_file, source_folder, destination_folder):
             zip_ref.extractall(destination_folder)
     except Exception as e:
         print(f"Error unzipping the dataset: {e}")
-
